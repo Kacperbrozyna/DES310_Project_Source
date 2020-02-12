@@ -27,10 +27,7 @@ void AMainCharacter::MoveForward(float Value)
 	if (Value != 0.0f)
 	{
 		const FVector forward = AMainCharacter::GetActorForwardVector();
-		const FRotator YawRotation(0, forward.Z, 0);
-
-		const FVector direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(direction, Value);
+		AddMovementInput(forward, Value);
 
 	}
 }
@@ -39,11 +36,8 @@ void AMainCharacter::MoveRight(float Value)
 {
 	if (Value != 0.0f)
 	{
-		const FVector forward = AMainCharacter::GetActorForwardVector();
-		const FRotator YawRotation(0, forward.Z, 0);
-
-		const FVector direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(direction, Value);
+		const FVector right = AMainCharacter::GetActorRightVector();
+		AddMovementInput(right, Value);
 
 	}
 }
