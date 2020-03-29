@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03EA27FD-BAFC-46EC-812E-AE5968ADB61A}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{03EA27FD-BAFC-46EC-812E-AE5968ADB61A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{CDE6058D-6AB8-4799-BFD8-53C59A87D252}">
+					<ChildrenList>
+						<Action Name="" ID="{1744AA62-E13C-45FE-A91A-07EDAE9A4C80}" ShortID="108739041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{AE87C6E8-69CD-4E05-971D-0EE8BFB8BB54}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Singing_A" ID="{6DD6D42C-C5C1-4914-8F7C-37E38DE20843}">
+					<ChildrenList>
+						<Action Name="" ID="{D45D9847-8EDB-4DDE-A5C3-DB65467CB867}" ShortID="26835471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sample A" ID="{CCF84516-078C-4B63-8092-7E1310D68CC7}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Singing_B" ID="{E4D65065-9DA7-496E-8E42-36727D6F90F8}">
+					<ChildrenList>
+						<Action Name="" ID="{BBE7AAC3-0E1D-46DE-AE08-392B9ADF8F7D}" ShortID="966782235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sample B" ID="{784160C4-4370-4BC9-8515-16419C559D7C}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Singing_C" ID="{E9B0676C-2FA1-4C32-9198-56B8A8F45F8E}">
+					<ChildrenList>
+						<Action Name="" ID="{DD95C10A-FE55-4224-A31D-9EB0469F70A7}" ShortID="680058380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sample C" ID="{EE986801-CFB3-4E48-9662-0678996E7C96}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Singing_E" ID="{898720C8-4EDE-4CCA-88FA-6E96B05AAD5F}">
+					<ChildrenList>
+						<Action Name="" ID="{FF76C7F2-3C65-4AEA-9464-DBA7147BAF8D}" ShortID="70362615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sample E" ID="{B8D37CEC-5320-4BF6-82AD-42C12E245AC1}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Item_pickup" ID="{C75A3847-7439-4553-8F82-A70D6B9A9483}">
+					<ChildrenList>
+						<Action Name="" ID="{89797E11-D804-4B46-9205-1C68ACF70877}" ShortID="121913007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Item_pickup" ID="{1ABF7915-31FC-45C8-B3BC-9F8113014D2C}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Packing" ID="{83D81B80-5F3B-4373-A816-A513E24AD0CB}">
+					<ChildrenList>
+						<Action Name="" ID="{6E663D13-1627-4583-9460-5CDE35772A0F}" ShortID="1060037295">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Packing" ID="{16BAEB9D-6D1E-4216-B8FD-A03F7AD93170}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Baby_cry" ID="{E6A741F6-6928-4728-A1F1-CD538EEF37EA}">
+					<ChildrenList>
+						<Action Name="" ID="{8FEA96B1-4059-4500-8D19-F6BFAB54C87D}" ShortID="19535448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baby" ID="{DBA59D02-2D15-4DE1-98B9-29E1F51B12CA}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mother_soothing" ID="{957D4368-ACA0-428F-9E0B-10AB6B689BD3}">
+					<ChildrenList>
+						<Action Name="" ID="{A499B116-3FE3-4CEE-8369-60DEEBD3BB92}" ShortID="61670020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mother Shh!" ID="{E87AB827-8633-4B33-AC02-A6807A62AA2F}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="neighboor_door" ID="{ED3EB77F-779D-44E5-A355-710B3803FDDC}">
+					<ChildrenList>
+						<Action Name="" ID="{885C296A-62AD-49A6-93A4-8A3073A65BDC}" ShortID="816383879">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Bang" ID="{080970BC-8F09-4EEF-97FD-08BA4404CAF6}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="neighboor_shutters" ID="{058A6F4A-3A22-4372-BE62-9691DF6E7A0D}">
+					<ChildrenList>
+						<Action Name="" ID="{390860A7-6982-4F1F-8FA2-0A63C1753DE6}" ShortID="989480528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shutters_close" ID="{B3E14A3F-8345-4ECB-A0B7-53385E695FAC}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="door_opening" ID="{DE80AEB1-1480-424F-8C44-5B09B46FC8BD}">
+					<ChildrenList>
+						<Action Name="" ID="{EDC2772F-FF95-4AD0-895C-174F50634C00}" ShortID="973354284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_opening" ID="{2D6284DF-F79D-450C-85CA-BB725B45BA87}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="door_closing" ID="{8B42AD93-E746-4D03-9A42-4ABD63A9C591}">
+					<ChildrenList>
+						<Action Name="" ID="{28D9512E-B41E-4743-837E-CE23D3514AEF}" ShortID="514703242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door-closing" ID="{5C0B2C3F-F239-4BD8-B6D6-CE70B4209FF5}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="spirit_idle" ID="{5BB4CBB2-4069-42CF-AE61-EE37FD255581}">
+					<ChildrenList>
+						<Action Name="" ID="{C2D4CACB-8B0E-4F15-BC1B-4D3552FF9832}" ShortID="327700188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spirit_idle" ID="{7BE44135-2ADB-487F-84AF-CFBE1D78E338}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="spirit_call" ID="{E5AB2EC3-413A-4F58-B53F-8505B2D61E25}">
+					<ChildrenList>
+						<Action Name="" ID="{C13F2A5A-EB6F-4F0D-911C-220A9F3622C7}" ShortID="407561560">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spirit_call" ID="{AFFD31A7-8A0D-484F-9804-4FABE1728CF5}" WorkUnitID="{77D75439-6BAE-4384-B6D1-11C56F68474D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

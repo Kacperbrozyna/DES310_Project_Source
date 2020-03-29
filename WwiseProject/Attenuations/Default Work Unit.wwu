@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{248D3EDE-E162-4D01-B592-6FFF26C66F20}" SchemaVersion="94">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{248D3EDE-E162-4D01-B592-6FFF26C66F20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Attenuation Name="Spirits" ID="{778A0C44-A872-4BBF-862A-224AA0A5123E}" ShortID="587835706">
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{B09CBB2A-7BBF-4F41-9C55-3516D00ADA05}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>-8.07385</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>8.88889</XPos>
+											<YPos>-14.69371</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>
